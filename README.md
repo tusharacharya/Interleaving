@@ -61,6 +61,7 @@ bool isInterleaved(char* A, char* B, char* C)
 }
 
 // A function to run test cases
+
 void test(char *A, char *B, char *C)
 {
 	if (isInterleaved(A, B, C))
@@ -71,6 +72,7 @@ void test(char *A, char *B, char *C)
 
 
 // Driver program to test above functions
+
 int main()
 {
 	test("XXY", "XXZ", "XXZXXXY");
